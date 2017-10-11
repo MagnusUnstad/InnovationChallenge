@@ -1,6 +1,6 @@
 let currentWord = "";
 
-let tekstArr = ["fremtiden", "medisin", "førstehjelp", "mat"];
+let tekstArr = ["fremtiden", "medisin", "førstehjelp", "matvarene dine hjem"];
 interval(tekstArr);
 let i = 0;
 
