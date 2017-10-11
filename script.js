@@ -1,7 +1,7 @@
 let currentWord = "";
 
 let tekstArr = ["fremtiden", "medisin", "førstehjelp", "mat"];
-interval(tekstArr);
+//interval(tekstArr);
 let i = 0;
 
 
@@ -47,6 +47,7 @@ function scrollFunc() {
 	if (transparency > 98) {
 		transparency = 98;
 	}
+	console.log(transparency);
 	
 	document.getElementById("navBarScr").style.backgroundColor = 'rgba(169,169,169,0.' + transparency + ')';
 
