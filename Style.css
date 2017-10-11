@@ -13,7 +13,8 @@ body {
 
 .NavigationBar {
   position:fixed;
-  width: 100%
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.0);
 }
 
 .NavigationBar ul {
@@ -27,7 +28,7 @@ body {
 
 .NavigationBar a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .NavigationBarRight {
@@ -52,4 +53,13 @@ body {
 .Bakgrunn {
   padding-top: 100px;
   text-align: center;
+  background-image: url(drone.jpg);
+}
+
+.Bakgrunn h1 {
+  font-size: 60px;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  padding-top: 0;
+  margin-top: 0;
 }
