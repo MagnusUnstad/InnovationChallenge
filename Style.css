@@ -7,16 +7,17 @@ body {
   list-style: none;
   display: inline-block;
   font-family: 'Ubuntu', sans-serif;
-  font-size: 20%px;
+  font-size: 17px;
   padding: 25px 7px 2px 7px;
 }
 
 .NavigationBar ul {
-  width: 85%;
+  width: 90%;
 	overflow:hidden;
 	margin: 0 auto;
 	background-color:white;
   padding-bottom: 1%;
+  padding-left: 0;
 }
 
 .NavigationBar a {
@@ -29,7 +30,16 @@ body {
   overflow: auto;
 }
 
+.NavigationBarRight img {
+  width: 34px;
+  height: auto;
+}
+
 .NavigationBarLeft {
   float: left;
   overflow: auto;
+}
+
+.NavigationBarLeft img {
+  width: 70px;
 }
