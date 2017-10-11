@@ -48,3 +48,8 @@ body {
 .NavigationBarLeft img {
   width: 84px;
 }
+
+.Bakgrunn {
+  padding-top: 100px;
+  text-align: center;
+}
