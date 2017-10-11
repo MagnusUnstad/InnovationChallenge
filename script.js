@@ -10,8 +10,6 @@ let k = 0;
 
 function interval(tekstArr) {
 	let i = 0;
-
-
 	let intervall =	setInterval(function(){
 		
 		document.getElementById("logotekst").innerHTML += tekstArr[k][i];
@@ -35,4 +33,21 @@ function interval(tekstArr) {
 		}
 		
 	}, 150 );
+}
+
+
+const doc = document.documentElement;
+
+function scrollFunc() {
+	let intensity = Math.round(doc.scrollTop);
+	if (intensity > 100) {
+		intensity = 99;
+	}
+	let transparency = Math.round(doc.scrollTop  / 4);
+	if (transparency > 98) {
+		transparency = 98;
+	}
+	
+	document.getElementById("navBarScr").style.backgroundColor = 'rgba(169,169,169,0.' + transparency + ')';
+
 }
