@@ -1,7 +1,7 @@
 let currentWord = "";
 
 let tekstArr = ["fremtiden", "medisin", "førstehjelp", "mat"];
-//interval(tekstArr);
+interval(tekstArr);
 let i = 0;
 
 
