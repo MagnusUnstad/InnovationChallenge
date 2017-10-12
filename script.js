@@ -11,7 +11,7 @@ let k = 0;
 function interval(tekstArr) {
 	let i = 0;
 	let intervall =	setInterval(function(){
-		
+
 		document.getElementById("logotekst").innerHTML += tekstArr[k][i];
 
 		i++;
@@ -23,15 +23,15 @@ function interval(tekstArr) {
 				if (k >= tekstArr.length) {
 					k = 0;
 				}
-				
-				
+
+
 				document.getElementById("logotekst").innerHTML = "";
 				interval(tekstArr);
-				
+
 			}, 2000 );
 
 		}
-		
+
 	}, 150 );
 }
 
@@ -39,16 +39,12 @@ function interval(tekstArr) {
 const doc = document.documentElement;
 
 function scrollFunc() {
-	let intensity = Math.round(doc.scrollTop);
-	if (intensity > 100) {
-		intensity = 99;
-	}
 	let transparency = Math.round(doc.scrollTop  / 4);
 	if (transparency > 98) {
 		transparency = 98;
 	}
 	console.log(transparency);
-	
+
 	document.getElementById("navBarScr").style.backgroundColor = 'rgba(169,169,169,0.' + transparency + ')';
 
 }
