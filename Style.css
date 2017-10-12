@@ -12,7 +12,7 @@ body {
 }
 .NavigationBar li:hover {
 	text-decoration:underline;
-	
+
 }
 
 .NavigationBar {
@@ -27,7 +27,7 @@ body {
 	margin: 0 auto;
   padding-left: 0;
   padding-bottom:1%;
-  
+
 }
 
 .NavigationBar a {
@@ -58,11 +58,12 @@ body {
   padding-top: 100px;
   text-align: center;
   background-image: url(drone.jpg);
+  background-attachment: fixed;
 }
 
 .Bakgrunn h1 {
-  font-size: 60px;
-  font-family: 'Ubuntu', sans-serif;
+  font-size: 75px;
+  font-family: 'Orbitron', sans-serif;
   color: white;
   padding-top: 0;
   margin-top: 0;
