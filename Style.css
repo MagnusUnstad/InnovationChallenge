@@ -58,7 +58,7 @@ body {
 .Bakgrunn {
   padding-top: 100px;
   text-align: center;
-  height: 1000px;
+  
 }
 
 .Bakgrunn h1 {
@@ -73,7 +73,10 @@ body {
 	font-family: 'Ubuntu', sans-serif;
 	color:white;
 	font-size:250%;
+	height:20vw;
 }
+
+
 
 .Partnere {
   background-color: rgba(0, 0, 0, 0.5);
@@ -99,3 +102,37 @@ body {
   font-family: 'Ubuntu', sans-serif;
   font-size: 30px;
 }
+
+.content {
+	height:600px;
+	margin:0 auto;
+	background-image:url(drone1.jpg);
+	background-size:cover;
+	color:white;
+	font-family: 'Ubuntu', sans-serif;
+	
+}
+
+.content h3 {
+	padding-left:15%;
+	padding-top:5%;
+	font-size:30px;
+}
+
+.content ul{
+	padding-left:15%;
+}
+.content p {
+	padding:1% 38.2% 1% 15%;
+}
+
+
+.layer {
+	background-color:rgba(0,0,0,0.7);
+
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
