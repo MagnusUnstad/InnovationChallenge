@@ -39,9 +39,9 @@ function interval(tekstArr) {
 const doc = document.documentElement;
 
 function scrollFunc() {
-	let transparency = Math.round(doc.scrollTop  / 4);
-	if (transparency > 98) {
-		transparency = 98;
+	let transparency = Math.round(doc.scrollTop  / 8);
+	if (transparency > 9) {
+		transparency = 9;
 	}
 	console.log(transparency);
 
