@@ -1,6 +1,8 @@
 body {
   margin: 0;
   padding: 0;
+  background-image: url(drone.jpg);
+  background-attachment: fixed;
 }
 
 .NavigationBar li {
@@ -56,8 +58,6 @@ body {
 .Bakgrunn {
   padding-top: 100px;
   text-align: center;
-  background-image: url(drone.jpg);
-  background-attachment: fixed;
 }
 
 .Bakgrunn h1 {
@@ -72,4 +72,29 @@ body {
 	font-family: 'Ubuntu', sans-serif;
 	color:white;
 	font-size:250%;
+}
+
+.Partnere {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.Partnere img {
+  width: 15%;
+  padding: 0% 2%;
+  margin: 0 auto;
+}
+
+.Partnere a {
+  text-align: center;
+  display: inline;
+}
+
+.Partnere h3 {
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
 }
